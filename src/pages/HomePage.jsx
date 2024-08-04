@@ -1,11 +1,9 @@
 import React from "react";
-import Counter from "./Counter";
 import CursorEffect from "./CursorEffect";
 
 const HomePage = () => {
   return (
     <div className="w-full h-screen-64 relative">
-      {/* <Counter /> */}
       <div className="h-screen-64 bg-[#333333] flex flex-col justify-center items-center relative">
         <CursorEffect />
         <div className="relative z-10 text-white text-[56px] font-bold text-center drop-shadow-[0_0_5px_#ffffff,0_0_20px_#000,0_0_30px_#000]">
@@ -17,7 +15,6 @@ const HomePage = () => {
           for your patients.
         </div>
       </div>
-      {/* <Counter /> */}
     </div>
   );
 };

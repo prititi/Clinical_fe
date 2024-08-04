@@ -141,6 +141,14 @@ export default function Footer() {
               <li className="mb-4">
                 <a
                   className="text-[#71717A] hover:text-gray-400 transition duration-150 ease-in-out secondary_text link-editable"
+                  href="/upload"
+                >
+                  Upload Images
+                </a>
+              </li>
+              <li className="mb-4">
+                <a
+                  className="text-[#71717A] hover:text-gray-400 transition duration-150 ease-in-out secondary_text link-editable"
                   href="/"
                 >
                   Clinical Portal
@@ -149,7 +157,7 @@ export default function Footer() {
               <li className="mb-4">
                 <a
                   className="text-[#71717A] hover:text-gray-400 transition duration-150 ease-in-out secondary_text link-editable"
-                  href="/about-us"
+                  href="/"
                 >
                   VR Therapy
                 </a>
@@ -157,17 +165,9 @@ export default function Footer() {
               <li className="mb-4">
                 <a
                   className="text-[#71717A] hover:text-gray-400 transition duration-150 ease-in-out secondary_text link-editable"
-                  href="/meetOurTeam"
+                  href="/"
                 >
                   PTSD Treatment
-                </a>
-              </li>
-              <li className="mb-4">
-                <a
-                  className="text-[#71717A] hover:text-gray-400 transition duration-150 ease-in-out secondary_text link-editable"
-                  href="/meetOurTeam"
-                >
-                  More Options
                 </a>
               </li>
             </ul>
