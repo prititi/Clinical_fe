@@ -20,15 +20,12 @@ function App() {
 
   return (
     <RootContainer>
-    
       <ContentContainer>
         <MainContainer />
       </ContentContainer>
       <FooterStyle>
-
-      <Footer />
+        <Footer />
       </FooterStyle>
-    
     </RootContainer>
   );
 }

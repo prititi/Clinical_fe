@@ -4,7 +4,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import moment from "moment";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { Button, List, ListItem} from "@mui/material";
+import { Button, List, ListItem } from "@mui/material";
 import XIcon from "@mui/icons-material/X";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import EmailIcon from "@mui/icons-material/Email";
@@ -77,7 +77,7 @@ export default function Footer() {
                 className="flex gap-3 order-first font-medium text-white-900 lg:order-none lg:w-auto title-font"
               >
                 <img
-                  src="https://media.discordapp.net/attachments/1121514666766643200/1268997708572655627/Untitled_1.png?ex=66b06ff6&is=66af1e76&hm=a8c04f3cb216d93a38bb228f3cace3f353989e7e22c85755edc740bd1bdbd9b6&=&format=webp&quality=lossless&width=256&height=285"
+                  src="src/Image/logo.png"
                   alt="app bar logo"
                   className="rounded-lg"
                   style={{ height: "50px", width: "50px" }}
@@ -239,7 +239,9 @@ export default function Footer() {
         </div>
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0"></ul>
-          <div className="text-sm text-[#71717A] hover:text-gray-400 mr-4">© {currentYear} Clinical Solution. All rights reserved.</div>
+          <div className="text-sm text-[#71717A] hover:text-gray-400 mr-4">
+            © {currentYear} Clinical Solution. All rights reserved.
+          </div>
         </div>
       </div>
     </div>

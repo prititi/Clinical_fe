@@ -120,7 +120,7 @@ const LoginPage = () => {
       {!isMobile && (
         <div className="mt-10">
           <img
-            src="https://cdni.iconscout.com/illustration/premium/thumb/medical-team-4963783-4132983.png"
+            src="src/Image/medical-team-login-register.webp"
             alt="Image"
             width="1900"
             height="1000"

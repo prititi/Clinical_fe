@@ -16,7 +16,6 @@ const pages = [
   { name: "Clinical Portal", redirect: "/" },
   { name: "VR Therapy", redirect: "/" },
   { name: "PTSD Treatment", redirect: "/" },
- 
 ];
 
 function ResponsiveAppBar() {
@@ -37,11 +36,11 @@ function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img
-            src="https://media.discordapp.net/attachments/1121514666766643200/1268997708572655627/Untitled_1.png?ex=66b06ff6&is=66af1e76&hm=a8c04f3cb216d93a38bb228f3cace3f353989e7e22c85755edc740bd1bdbd9b6&=&format=webp&quality=lossless&width=256&height=285"
+            src="src/Image/logo.png"
             alt="app bar logo"
             style={{ height: "50px", width: "50px" }}
             className="cursor-pointer"
-            onClick={()=> navigate("/")}
+            onClick={() => navigate("/")}
           />
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
