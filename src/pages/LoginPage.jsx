@@ -120,7 +120,7 @@ const LoginPage = () => {
       {!isMobile && (
         <div className="mt-10">
           <img
-            src="src/Image/medical-team-login-register.webp"
+            src="https://cdn.discordapp.com/attachments/1011669075656704003/1269907321153257522/medical-team-login-register.webp?ex=66b1c4db&is=66b0735b&hm=19ba66f21500664ddae16950ba1fdee5a0d09caa8fc1fc0b94094a98fb4dfe96&"
             alt="Image"
             width="1900"
             height="1000"

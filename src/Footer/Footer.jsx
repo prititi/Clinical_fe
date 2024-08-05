@@ -77,7 +77,7 @@ export default function Footer() {
                 className="flex gap-3 order-first font-medium text-white-900 lg:order-none lg:w-auto title-font"
               >
                 <img
-                  src="src/Image/logo.png"
+                  src="https://media.discordapp.net/attachments/1121514666766643200/1268997708572655627/Untitled_1.png?ex=66b118b6&is=66afc736&hm=2ac380a0cfaa6a76300e48560d014611dc0a66024d1c475dd3a18351bf4f381e&format=webp&quality=lossless&width=256&height=285&"
                   alt="app bar logo"
                   className="rounded-lg"
                   style={{ height: "50px", width: "50px" }}
