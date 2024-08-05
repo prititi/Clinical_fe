@@ -99,11 +99,6 @@ For deployment instructions, please refer to the `Deployment` section in the doc
     https://clinical-assignment-qqnp.vercel.app/
     ```
 
-3. Start the development server:
-    ```sh
-    npm run dev
-    ```
-
 
 ## License
 
