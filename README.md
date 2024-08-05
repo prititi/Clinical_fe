@@ -4,7 +4,7 @@
 
 This clinical app is a comprehensive and essential tool for clinicians in the healthcare sector, initially focusing on treating patients with PTSD with planned future expansion into other areas of mental health. Its primary purpose is to facilitate the creation, customization, and management of immersive 3D environments used in VR therapy. By providing a streamlined, user-friendly experience, the website equips clinicians with the necessary tools to offer personalized and effective treatment experiences, enhancing their therapeutic practices through cutting-edge virtual reality technology.
 
-## Features
+## Frontend Features
 
 ### Landing Page/Welcome Screen
 - **Introduction**: Briefly explains the purpose and benefits of the app.
@@ -17,6 +17,24 @@ This clinical app is a comprehensive and essential tool for clinicians in the he
 
 ### Upload Images
 - **File Upload**: Users can upload images to be used in the creation of 3D environments for VR therapy.
+
+## Backend Features
+
+### Landing Page/Welcome Screen
+
+### Role base Registration/Login
+- **Login Endpoint**: POST `/v1/api/auth/login`.
+- **User Registration**: POST `/v1/api/auth/register`.
+- **GET User**: GET `/v1/api/auth/users/`.
+- **POST User**: POST `/v1/api/users/`.
+- **DELETE User**: POST `/v1/api/users/:id`.
+- **PUT User**: POST `/v1/api/users/:id`.
+
+
+
+### Upload Images
+- **File Upload**: POST `/upload`
+- **File Upload**: GET `/images`
 
 ## Screenshots
 
@@ -70,6 +88,21 @@ This clinical app is a comprehensive and essential tool for clinicians in the he
 ### Deployment
 
 For deployment instructions, please refer to the `Deployment` section in the documentation.
+
+1. Backend deployment link:
+    ```sh
+    https://clinical-3ndq.onrender.com
+    ```
+
+2. Frontend deployment link:
+    ```sh
+    https://clinical-assignment-qqnp.vercel.app/
+    ```
+
+3. Start the development server:
+    ```sh
+    npm run dev
+    ```
 
 
 ## License
